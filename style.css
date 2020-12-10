@@ -1,0 +1,63 @@
+.header{
+    background-color: lightpink;
+    justify-content: center;
+    border:solid;
+    margin:30px;
+    padding:20px;
+    border-color: mediumvioletred;
+    text-align: center;
+}
+.pages{
+    background-color: powderblue;
+    text-decoration-color: mintcream;
+    border:solid;
+    margin:30px;
+    padding:20px;
+    border-color: midnightblue;
+    display:flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.links{
+    background-color:lightcoral;
+    justify-content: center;
+    border:solid;
+    border-color: navy;
+    color:navy
+}
+.project{
+    background-color: palevioletred;
+    border:solid;
+    border-color: darkslateblue;
+}
+.aboutMe{
+    background-color: indianred;
+    border:solid;
+    border-color: #808080;
+
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:darkred;
+}
+.item{
+    position : relative;
+    /*positioned relative to its normal position */
+    
+}
+.item p{
+    position:absolute;
+    /*realtive to teh first position - non static element*/
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0 ;
+}
+.item:hover p{
+    opacity: 1; 
+} 
+.item:hover img{ 
+    opacity: 0.33; 
+}
